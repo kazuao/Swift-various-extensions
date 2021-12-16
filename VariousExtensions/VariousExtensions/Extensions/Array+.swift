@@ -40,3 +40,14 @@ extension Array {
     }
 }
 
+
+/// 配列でオブジェクトのインスタンスを検索して削除
+/// - Sample: array.removeFirst("foo")
+extension Array where Element: Equatable {
+    @discardableResult
+    mutating func removeFirst(_ element: Element) -> Index? {
+        guard let index = firstIndex(of: element) else { return nil }
+        remove(at: index)
+        return index
+    }
+}
