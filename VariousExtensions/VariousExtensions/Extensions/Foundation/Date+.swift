@@ -11,7 +11,7 @@ extension Date {
     
     /// yyyy-MM-dd HH:mm:ss.ff形式で時刻を取得する
     func getDateFormatString() -> String {
-        let locale = Locale(identifier: Const.localeJP)
+        let locale = Locale(identifier: "ja-JP")
         let format = "yyyy-MM-dd HH:mm:ss.SSS"
         let dateFormatter = DateFormatter()
         

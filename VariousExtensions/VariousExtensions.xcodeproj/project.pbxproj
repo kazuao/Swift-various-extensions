@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3CA9E227FBC0E30022AC16 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9E127FBC0E30022AC16 /* View+.swift */; };
+		0E3CA9E627FBC1AA0022AC16 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 0E3CA9E527FBC1AA0022AC16 /* Rswift */; };
+		0E3CA9E927FBC2060022AC16 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9E827FBC2060022AC16 /* R.generated.swift */; };
+		0E3CA9EB27FBC2970022AC16 /* Image+Rswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9EA27FBC2970022AC16 /* Image+Rswift.swift */; };
+		0E3CA9ED27FBC2D00022AC16 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9EC27FBC2D00022AC16 /* String+.swift */; };
+		0E3CA9EF27FBC2FC0022AC16 /* Text+Rswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9EE27FBC2FC0022AC16 /* Text+Rswift.swift */; };
+		0E3CA9F127FBC3130022AC16 /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9F027FBC3130022AC16 /* Text+.swift */; };
+		0E3CA9F327FBC3B90022AC16 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9F227FBC3B90022AC16 /* UIApplication+.swift */; };
+		0E3CA9F527FBC3C90022AC16 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9F427FBC3C90022AC16 /* UIColor+.swift */; };
+		0E3CA9F727FBC4140022AC16 /* UIWindow+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CA9F627FBC4140022AC16 /* UIWindow+.swift */; };
 		0E59A9AB276ABEBD0003AF6C /* Task+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59A9AA276ABEBD0003AF6C /* Task+.swift */; };
 		0E59A9AD276AC0600003AF6C /* AnyPublisher+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59A9AC276AC0600003AF6C /* AnyPublisher+.swift */; };
 		0E59A9AF276AC0D50003AF6C /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59A9AE276AC0D50003AF6C /* Color+.swift */; };
@@ -31,6 +41,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E3CA9E127FBC0E30022AC16 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		0E3CA9E827FBC2060022AC16 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = generated/R.generated.swift; sourceTree = "<group>"; };
+		0E3CA9EA27FBC2970022AC16 /* Image+Rswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Rswift.swift"; sourceTree = "<group>"; };
+		0E3CA9EC27FBC2D00022AC16 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		0E3CA9EE27FBC2FC0022AC16 /* Text+Rswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Rswift.swift"; sourceTree = "<group>"; };
+		0E3CA9F027FBC3130022AC16 /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
+		0E3CA9F227FBC3B90022AC16 /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		0E3CA9F427FBC3C90022AC16 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		0E3CA9F627FBC4140022AC16 /* UIWindow+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+.swift"; sourceTree = "<group>"; };
 		0E59A9AA276ABEBD0003AF6C /* Task+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+.swift"; sourceTree = "<group>"; };
 		0E59A9AC276AC0600003AF6C /* AnyPublisher+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyPublisher+.swift"; sourceTree = "<group>"; };
 		0E59A9AE276AC0D50003AF6C /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
@@ -62,15 +81,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3CA9E627FBC1AA0022AC16 /* Rswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3CA9DD27FBC09D0022AC16 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				0E5A546627150ECC00EA27F5 /* Array+.swift */,
+				0E59A9B2276AC1320003AF6C /* Date+.swift */,
+				0EAE941D27179685006C6106 /* Foundation+.swift */,
+				0E5A546827150FEE00EA27F5 /* Notification.Name+.swift */,
+				0E59A9AA276ABEBD0003AF6C /* Task+.swift */,
+				0E5A546427150C9700EA27F5 /* UserDefaults+.swift */,
+				0E3CA9EC27FBC2D00022AC16 /* String+.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		0E3CA9DE27FBC0A40022AC16 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0EAE94352717A1C0006C6106 /* UICollectionView+.swift */,
+				0E3CA9F627FBC4140022AC16 /* UIWindow+.swift */,
+				0E5A546A2715105B00EA27F5 /* UIFont+.swift */,
+				0E5A546E271511B000EA27F5 /* UIImage+.swift */,
+				0EAE94332717A116006C6106 /* UITableView+.swift */,
+				0E5A5470271512A800EA27F5 /* UIView+.swift */,
+				0E5A5472271513A400EA27F5 /* UIViewController+Alert.swift */,
+				0E3CA9F227FBC3B90022AC16 /* UIApplication+.swift */,
+				0E3CA9F427FBC3C90022AC16 /* UIColor+.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0E3CA9DF27FBC0A90022AC16 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0E59A9AE276AC0D50003AF6C /* Color+.swift */,
+				0E3CA9E127FBC0E30022AC16 /* View+.swift */,
+				0E3CA9F027FBC3130022AC16 /* Text+.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		0E3CA9E027FBC0D70022AC16 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0E59A9AC276AC0600003AF6C /* AnyPublisher+.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		0E3CA9E327FBC17F0022AC16 /* Rswift */ = {
+			isa = PBXGroup;
+			children = (
+				0E3CA9EA27FBC2970022AC16 /* Image+Rswift.swift */,
+				0E3CA9EE27FBC2FC0022AC16 /* Text+Rswift.swift */,
+			);
+			path = Rswift;
+			sourceTree = "<group>";
+		};
 		0E5A544027150BE100EA27F5 = {
 			isa = PBXGroup;
 			children = (
+				0E3CA9E827FBC2060022AC16 /* R.generated.swift */,
 				0E5A544B27150BE100EA27F5 /* VariousExtensions */,
 				0E5A544A27150BE100EA27F5 /* Products */,
 			);
@@ -128,20 +206,11 @@
 		0E5A546327150C2500EA27F5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0E5A546427150C9700EA27F5 /* UserDefaults+.swift */,
-				0E5A546A2715105B00EA27F5 /* UIFont+.swift */,
-				0E5A546E271511B000EA27F5 /* UIImage+.swift */,
-				0E5A5470271512A800EA27F5 /* UIView+.swift */,
-				0E5A5472271513A400EA27F5 /* UIViewController+Alert.swift */,
-				0E5A546627150ECC00EA27F5 /* Array+.swift */,
-				0E5A546827150FEE00EA27F5 /* Notification.Name+.swift */,
-				0EAE941D27179685006C6106 /* Foundation+.swift */,
-				0EAE94332717A116006C6106 /* UITableView+.swift */,
-				0EAE94352717A1C0006C6106 /* UICollectionView+.swift */,
-				0E59A9AA276ABEBD0003AF6C /* Task+.swift */,
-				0E59A9AC276AC0600003AF6C /* AnyPublisher+.swift */,
-				0E59A9AE276AC0D50003AF6C /* Color+.swift */,
-				0E59A9B2276AC1320003AF6C /* Date+.swift */,
+				0E3CA9DD27FBC09D0022AC16 /* Foundation */,
+				0E3CA9DE27FBC0A40022AC16 /* UIKit */,
+				0E3CA9DF27FBC0A90022AC16 /* SwiftUI */,
+				0E3CA9E027FBC0D70022AC16 /* Combine */,
+				0E3CA9E327FBC17F0022AC16 /* Rswift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -161,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E5A545D27150BE700EA27F5 /* Build configuration list for PBXNativeTarget "VariousExtensions" */;
 			buildPhases = (
+				0E3CA9E727FBC1BB0022AC16 /* Rswift */,
 				0E5A544527150BE100EA27F5 /* Sources */,
 				0E5A544627150BE100EA27F5 /* Frameworks */,
 				0E5A544727150BE100EA27F5 /* Resources */,
@@ -170,6 +240,9 @@
 			dependencies = (
 			);
 			name = VariousExtensions;
+			packageProductDependencies = (
+				0E3CA9E527FBC1AA0022AC16 /* Rswift */,
+			);
 			productName = VariousExtensions;
 			productReference = 0E5A544927150BE100EA27F5 /* VariousExtensions.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 0E5A544027150BE100EA27F5;
+			packageReferences = (
+				0E3CA9E427FBC1AA0022AC16 /* XCRemoteSwiftPackageReference "R.swift" */,
+			);
 			productRefGroup = 0E5A544A27150BE100EA27F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -221,6 +297,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E3CA9E727FBC1BB0022AC16 /* Rswift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = Rswift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which rswift >/dev/null; then\nrswift generate \"$SRCROOT/generated/R.generated.swift\"\nelse\necho \"warning: rswift not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E5A544527150BE100EA27F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -229,18 +328,27 @@
 				0EAE94362717A1C0006C6106 /* UICollectionView+.swift in Sources */,
 				0E59A9AF276AC0D50003AF6C /* Color+.swift in Sources */,
 				0E5A546527150C9700EA27F5 /* UserDefaults+.swift in Sources */,
+				0E3CA9F127FBC3130022AC16 /* Text+.swift in Sources */,
 				0E5A545127150BE100EA27F5 /* ViewController.swift in Sources */,
+				0E3CA9E227FBC0E30022AC16 /* View+.swift in Sources */,
 				0E5A544D27150BE100EA27F5 /* AppDelegate.swift in Sources */,
+				0E3CA9E927FBC2060022AC16 /* R.generated.swift in Sources */,
 				0EAE941E27179685006C6106 /* Foundation+.swift in Sources */,
 				0E5A546B2715105B00EA27F5 /* UIFont+.swift in Sources */,
 				0E59A9AD276AC0600003AF6C /* AnyPublisher+.swift in Sources */,
+				0E3CA9F727FBC4140022AC16 /* UIWindow+.swift in Sources */,
 				0E5A544F27150BE100EA27F5 /* SceneDelegate.swift in Sources */,
+				0E3CA9EF27FBC2FC0022AC16 /* Text+Rswift.swift in Sources */,
 				0E5A5473271513A400EA27F5 /* UIViewController+Alert.swift in Sources */,
+				0E3CA9F527FBC3C90022AC16 /* UIColor+.swift in Sources */,
 				0E5A546F271511B000EA27F5 /* UIImage+.swift in Sources */,
 				0E5A546927150FEE00EA27F5 /* Notification.Name+.swift in Sources */,
 				0E59A9B3276AC1320003AF6C /* Date+.swift in Sources */,
 				0EAE94342717A116006C6106 /* UITableView+.swift in Sources */,
 				0E5A5471271512A800EA27F5 /* UIView+.swift in Sources */,
+				0E3CA9EB27FBC2970022AC16 /* Image+Rswift.swift in Sources */,
+				0E3CA9F327FBC3B90022AC16 /* UIApplication+.swift in Sources */,
+				0E3CA9ED27FBC2D00022AC16 /* String+.swift in Sources */,
 				0E59A9AB276ABEBD0003AF6C /* Task+.swift in Sources */,
 				0E5A546727150ECC00EA27F5 /* Array+.swift in Sources */,
 			);
@@ -462,6 +570,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E3CA9E427FBC1AA0022AC16 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E3CA9E527FBC1AA0022AC16 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E3CA9E427FBC1AA0022AC16 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = Rswift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0E5A544127150BE100EA27F5 /* Project object */;
 }
